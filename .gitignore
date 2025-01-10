@@ -2,7 +2,6 @@
 node_modules/
 
 # Cypress environment configuration
-cypress/results/
 cypress/screenshots/
 cypress/videos/
 
