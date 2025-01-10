@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Cypress environment configuration
+cypress/results/
+cypress/screenshots/
+cypress/videos/
+
+# Local test reports (JUnit, Mochawesome, etc.)
+cypress/reports/
+
+# npm log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# .env files (if you're using any environment variables locally)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cypress cache
+.cypress/
+
+# VS Code or IDE specific files
+.vscode/
+
+# Log files
+logs/
+
+# System-specific files
+.idea/
