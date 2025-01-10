@@ -7,13 +7,10 @@ module.exports = defineConfig({
       specPattern: "cypress/e2e/**/*.cy.js"
       require('cypress-mochawesome-reporter/plugin')(on);
     },
-    reporter: "cypress-mochawesome-reporter",
-    reporterOptions: {
-      charts: true,
-      reportPageTitle: "Cypress Test Report",
-      embeddedScreenshots: true,
-      inlineAssets: true,
-      saveAllAttempts: false,
+    reporter: 'mocha-junit-reporter',
+    reporterOptions:{
+      mochaFile: 'cypress/reports/junit/test-results-[hash].xml',
+      toConsole: true,
     }
   },
 });
